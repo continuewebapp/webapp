@@ -30,8 +30,6 @@
     </style>
 </head>
 <body >
-<script>
-</script>
 
 <!-- Navigation -->
   <nav  class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style=" background-color: #f8f9fa!important;">
@@ -63,20 +61,46 @@
    <div class="container">
        <div class="card text-center" style="margin-top:25%">
            <div class="card-header">
-               在线模拟表白
+               聊天框
            </div>
            <div class="card-body">
+               <div class="card" style="background-color:#bee5eb;width: 40%;">
+                   <div class="card-body">
+                       123
+                   </div>
+               </div>
+               <div  style="background-color:pink;width: 40%;align: right!important;">
+                   <div class="card-body pull-right">
+                       123
+                   </div>
+               </div>
 
            </div>
-           <div class="card-footer text-muted">
-               <button data-toggle="modal" data-target="#result" href="#"  class="btn btn-primary">查看结果</button>
+           <div class="card-footer">
+             <div class="buju" style="display:flex;flex-wrap: nowrap">
+               <input type="text" class="form-control" id="inputText"  placeholder="">
+               <button class="btn btn-primary" style="background-color: #b8daff">发送</button>
+               <button data-toggle="modal" data-target="#result" class="btn btn-primary">结果分析</button>
+             </div>
            </div>
        </div>
    </div>
 
    <!--result-->
    <div id="result" class="modal fade">
-
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-body">
+                   <button class="close" data-dismiss="modal">
+                       <span>&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body">
+                   <p class="text-center">结果</p>
+               </div>
+               </div>
+           </div>
+       </div>
    </div>
 
 <!-- Bootstrap core JavaScript -->

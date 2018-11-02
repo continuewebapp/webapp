@@ -1,12 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
 
-    
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>情感在线分析</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-image: url("img/back.jpg");
+        }
+    </style>
+
 </head>
 <body>
+<!-- Navigation -->
+<!-- Navigation -->
+<nav  class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style=" background-color: #f8f9fa!important;">
+    <div class="container">
+        <a style="color: rgba(237, 69, 69, 0.8)!important;" class="navbar-brand " href="index.html">情感分析平台</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a  style="color: rgba(237, 69, 69, 0.8)!important;" class="nav-link js-scroll-trigger" href="info.html">个人资料</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: rgba(237, 69, 69, 0.8)!important;" class="nav-link js-scroll-trigger" href="#">历史记录</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: rgba(237, 69, 69, 0.8)!important;" class="nav-link js-scroll-trigger" href="chat.html">模拟告白</a>
+                </li>
+                <li class="nav-item">
+                    <button data-toggle="modal" data-target="#register" class="nav-link js-scroll-trigger" href="#portfolio">name</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--没啥用-->
+<div class="container" >
+    <div class="card" style="width: 18rem;">
+        <!--<img class="card-img-top" src="img/grey.svg/100px180/?text=Image cap" alt="Card image cap">-->
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
+<div style="border: transparent!important;" >
+    <div  style="width: 18rem;">
+        <!--<img class="card-img-top" src="img/grey.svg/100px180/?text=Image cap" alt="Card image cap">-->
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
+<div style="border: transparent!important;" >
+    <div  style="width: 18rem;">
+        <!--<img class="card-img-top" src="img/grey.svg/100px180/?text=Image cap" alt="Card image cap">-->
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
+<div style="border: transparent!important;" >
+    <div  style="width: 18rem;">
+        <!--<img class="card-img-top" src="img/grey.svg/100px180/?text=Image cap" alt="Card image cap">-->
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
 
+<div class="container" >
+    <div class="row">
+    <div class="col-sm">
+    <div class="card " style="width: 18rem;">
+        <img class="card-img-top" src="img/grey.svg" alt="Card image cap">
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">插入个人照片</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+        <div class="col-sm">
+            <form>
+                <div class="form-group">
+                    <label for="nick">用户名</label>
+                    <input type="text" class="form-control" id="nick" aria-describedby="nick" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="sex">性别</label>
+                    <select class="form-control" id="sex">
+                        <option>男</option>
+                        <option>女</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="work">职业</label>
+                    <input type="text" class="form-control" id="work" aria-describedby="" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="age">年龄</label>
+                    <input type="number" class="form-control" id="age" aria-describedby="" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-primary">提交修改</button>
+            </form>
+        </div>
+
+        <div class="col-sm">
+            <!--<div class="card " style="width: 18rem;">
+                <img class="card-img-top" src="img/grey.svg" alt="Card image cap">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">插入个人照片</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </form>
+                </div>
+            </div>-->
+        </div>
+
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
 </body>
-</html>
