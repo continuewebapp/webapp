@@ -1,0 +1,33 @@
+.chat{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    padding:20px 20px;
+    background:#cdb79e;
+
+}
+.chat1{
+    border:2px solid #303030;
+    border-radius:20px;/*向div元素添加圆角边框，数值定义圆角的形状*/
+    box-sizing:border-box;/*允许以特定的方式定义匹配某个区域的特定元素*/
+    float:left;
+    clear:both;
+    margin-bottom:20px;
+    padding:20px 30px;
+    background:#fff8dc;
+    position:relative;
+    width:auto;
+}
+.chat2{
+    background:#aeeeee;
+    float:right;
+}
+.chat3{
+    position:relative;
+    border:2px solid #303030;
+    border-radius:5px;
+    top:470px;
+    width:100%;
+    padding:5px 0px;
+    text-align:left;
+}
